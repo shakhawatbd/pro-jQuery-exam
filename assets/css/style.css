@@ -1,0 +1,140 @@
+ /*
+    Created on : Dec 26, 2016.
+    Author     : S M SHAKHAWAT HOSSAIN
+    E-mail     : shakhawat.tex@gmail.com
+*/
+
+/* PreLoader Start */
+
+#perloader{
+    position:fixed;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    background:#fff;
+    z-index:9999;
+}
+.spiner_perloader{
+    position:absolute;
+    width:128px;
+    height:128px;
+    left:50%;
+    top:50%;
+    background:url(../images/loader.gif) no-repeat scroll center center;
+    display:block;
+	transform: translate(-50%, -50%);
+}
+/* PreLoader End */
+/* Header-top Section Start */
+.header-img {background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/gif.gif); padding-bottom: 5%; padding-top: 2%;background-attachment: fixed;}
+.social-icon {margin-top: 20px; color: #F7600E;}
+.social-icon:hover {color: #ddd;}
+.logo {font-size: 1.8em; color: #ddd; font-weight: bold;}
+.logo:hover{color: #F7600E;}
+.logo > span{color: #F7600E;}
+.logo > span:hover{color: #ddd;}
+.navbar-toggle{padding: 11px 5% 8px 11px !important; margin-right: 0 !important;}
+.navbar-toggle .icon-bar{background-color: #f7600e;}
+.navbar-nav > li > a {padding-top: 15px; padding-bottom: 15px; color: #9d9d9d;}
+.menu-list > li > a{font-size: 13px; font-family: 'Open Sans', sans-serif; font-weight: bolder;}
+.menu-list > li > a:hover{background: none; color: #fff;}
+.h1-text {font-size: 4em; color: #f7600e; font-weight: bolder;}
+.first-p {color: #fff; font-size: 1.8em; margin-top: 2%; margin-bottom: 5%;}
+.first-btn {background: transparent; padding: 3% 10%; color: #fff; font-size: 1.2em; border: 2px solid #f7600e; border-radius: 26px; letter-spacing: .26em; margin-bottom: 10%; position: relative; left: 50%; margin-right: -50%; top: 30px; transform: translate(-50%, -50%);}
+.first-btn:hover {border-color: #fff; color: #f7600e; font-size: 1.2em; font-weight: bolder;}
+/* Header-top Section End */
+
+/* slider section start */
+.slider {padding: 3% 3%; background-image:  url('../images/metaloader.gif'); background-attachment: fixed; background-size: cover;}
+.sl-img {width: 100%; height: 100%}
+.crsl-innr-height { height: 500px; overflow: hidden;}
+/* slider section end */
+
+/* Services Section Start */
+.services {padding-top: 5%; padding-bottom: 8%; background-image: url('../images/images1.png');background-attachment: fixed; background-size: cover;}
+.services-h2 {color: #f7600e; font-size: 3em; font-weight: bolder; letter-spacing: 5px; margin-bottom: 3%;}
+.services-h2 > span {color: #fff;}
+.services-p {color: #fff; font-size: 2em;}
+.event-h3 {color: #f7600e; font-size: 2em; font-weight: bolder; letter-spacing: 1px; margin-bottom: 8%; height: 45px;}
+.event-pic {width: 100%; height: 300px;}
+/* Services Section End */
+
+/* Portfolio Section Start */
+.portfolio {background-image: url('../images/images3.jpg'); background-attachment: fixed; background-size: cover; padding-top: 5%; padding-bottom: 8%;}
+/* Owl-Carousel Start */
+#owl-demo .item {margin: 3px;}
+#owl-demo .item img {display: block; width:90%; height: 500px;}
+
+/* Owl-Carousel End */
+/* Portfolio Section End */
+
+/* Company-Expertise Section Start */
+.company {padding-top: 5%; padding-bottom: 8%; background-image: url('../images/imagesX.jpg'); background-attachment: fixed; background-size: cover;}
+.comp-h3 {color: #F7600E; font-size: 2em; font-weight: bolder; letter-spacing: 1px; margin-bottom:6%; height: 45px; text-transform: uppercase;}
+.comp-p {color: #fff; font-size: 1.5em; padding-top: 10%;padding-bottom: 15%;}
+.ex-img {display: block; margin-left: auto; margin-right: auto;}
+.ex-p {color: #fff; font-size: 1.5em;}
+.comp-btn {background: transparent; padding: 2% 3%; color: #fff; font-size: 1.2em; border: 2px solid #f7600e; border-radius: 26px; letter-spacing: 0.15em; margin-top: 3%;}
+
+/* Company-Expertise Section End */
+
+/* Testimonial Section Start */
+.testimonial {padding-top: 5%; padding-bottom: 8%; background-image: url('../images/images3.jpg'); background-attachment: fixed; background-size: cover;}
+.testimonial-h3 {color: #f7600e; font-size: 2em; font-weight: bolder; letter-spacing: 1px; margin-bottom: 2%; height: 45px;}
+.testimonial-h3 > span {color: #fff;}
+.test-pic {border-radius: 5%; width: 100%; height: 250px; margin-top: 20%;}
+.test-h4 {color: #f7600e;}
+.scl-icon {color: #f7600e;}
+.test-p {color: #fff;}
+/* Testimonial Section End */
+
+/* Footer-Top Section Start */
+.footer-top {padding-top: 5%; padding-bottom: 8%; background-image: url('../images/imagesX.jpg'); background-attachment: fixed; background-size: cover;}
+.footer-h3 {color: #f7600e; font-size: 1.4em; font-weight: bolder; letter-spacing: .5px; height: 35px;}
+.footer-h3 > span {color: #fff;}
+.footer-social-icon {color: #F7600E;}
+.footer-social-icon:hover {color: #ddd;}
+.text-field-one {background: url(../images/feedback_user.png)no-repeat 10px 13px #444343; background-color: #EBEBEB; border: 1px solid #FFFFFF; box-shadow: 1px 1px 7px 0px #888888; border-radius: 3px; font-size: 15px; height: 45px; padding-left: 35px;}
+.text-field-two {background: url(../images/feedback_message.png)no-repeat 10px 15px #444343; background-color: #EBEBEB; border: 1px solid #FFFFFF; box-shadow: 1px 1px 7px 0px #888888; border-radius: 3px; font-size: 15px; height: 45px; padding-left: 35px;}
+.text-field-three {background: url(../images/feedback_user.png)no-repeat 10px 13px #444343; background-color: #EBEBEB; border: 1px solid #FFFFFF; box-shadow: 1px 1px 7px 0px #888888; border-radius: 3px; font-size: 15px; height: 45px; padding-left: 35px;}
+.message {background-color: #EBEBEB; border: 1px solid #FFFFFF; box-shadow: 1px 1px 7px 0px #888888; border-radius: 3px;}
+.butn {padding: 10px 35px; background-color: #EBEBEB; border: 1px solid #FFFFFF; box-shadow: 1px 1px 7px 0px #888888; border-radius: 3px; border-radius: 6px; color: #f7600e; font-weight: bolder;}
+/* Footer-Top Section End */
+
+/* Footer-Bottom Section Start */
+.footer-bottom {background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/header.png); padding-bottom: 1%; padding-top: 2%;background-attachment: fixed;
+}
+.copyright {color: #f7600e; font-size: 1.4em; font-weight: bolder; letter-spacing: .5px;}
+.arrow-size {color: #f7600e; padding: 15px; border: 2px solid #f7600e; border-radius: 5px; box-shadow: -1px 1px 10px 6px #f7600e; background: transparent;}
+.arrow-size:hover {color: #fff; border:2px solid #fff; box-shadow: -1px 1px 10px 6px #fff;}
+/* Footer-Bottom Section End */
+
+
+@media screen and (max-width: 480px){
+.social-icon-pos {margin-right: 33px;}
+.comp-p {padding-top: 45%;}
+.crsl-innr-height { height: 180px; overflow: hidden;}
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+.social-icon-pos {margin-bottom: -5px; margin-right: 33px;}
+.crsl-innr-height { height: 280px; overflow: hidden;}
+}
+
+@media (min-width: 768px) and (max-width: 980px){
+.social-icon-pos {margin-top: 50px; margin-bottom: -43px;}
+.logo {margin-left: 33%;}
+.crsl-innr-height { height: 350px; overflow: hidden;}
+}
+
+@media (min-width: 980px) and (max-width: 1920px){
+.logo {position: absolute;}
+
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
